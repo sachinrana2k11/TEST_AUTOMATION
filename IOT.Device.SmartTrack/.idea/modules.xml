@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/ChotuOS/.idea/ChotuOS.iml" filepath="$USER_HOME$/PycharmProjects/ChotuOS/.idea/ChotuOS.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/GSM/.idea/GSM.iml" filepath="$USER_HOME$/PycharmProjects/GSM/.idea/GSM.iml" />
+      <module fileurl="file://C:/UHF_mycode_rfid_smartID_eventhub/IOT.Device.SmartTrack/.idea/IOT.Device.SmartTrack.iml" filepath="C:/UHF_mycode_rfid_smartID_eventhub/IOT.Device.SmartTrack/.idea/IOT.Device.SmartTrack.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/PeeWee/.idea/PeeWee.iml" filepath="$USER_HOME$/PycharmProjects/PeeWee/.idea/PeeWee.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Raspberry-UHF-RFID-Reader-master/.idea/Raspberry-UHF-RFID-Reader-master.iml" filepath="$USER_HOME$/Desktop/Raspberry-UHF-RFID-Reader-master/.idea/Raspberry-UHF-RFID-Reader-master.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Speech_recogination/.idea/Speech_recogination.iml" filepath="$USER_HOME$/PycharmProjects/Speech_recogination/.idea/Speech_recogination.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/UHFRFID/.idea/UHFRFID.iml" filepath="$USER_HOME$/PycharmProjects/UHFRFID/.idea/UHFRFID.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/face_reco/.idea/face_reco.iml" filepath="$USER_HOME$/PycharmProjects/face_reco/.idea/face_reco.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/gps testing/.idea/gps testing.iml" filepath="$USER_HOME$/PycharmProjects/gps testing/.idea/gps testing.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/mesh_decoding/.idea/mesh_decoding.iml" filepath="$USER_HOME$/PycharmProjects/mesh_decoding/.idea/mesh_decoding.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/mesh_testing/.idea/mesh_testing.iml" filepath="$USER_HOME$/PycharmProjects/mesh_testing/.idea/mesh_testing.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/new_code_start/.idea/new_code_start.iml" filepath="$USER_HOME$/PycharmProjects/new_code_start/.idea/new_code_start.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/schoolways_image/.idea/schoolways_image.iml" filepath="$USER_HOME$/PycharmProjects/schoolways_image/.idea/schoolways_image.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/socket/.idea/socket.iml" filepath="$USER_HOME$/PycharmProjects/socket/.idea/socket.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/test_work/.idea/test_work.iml" filepath="$USER_HOME$/PycharmProjects/test_work/.idea/test_work.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{cac60dc0-cea2-418c-8764-43cd93493e62}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>hardware.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|IOT.Device.SmartTrack|$(MSBuildProjectFullPath)</InterpreterId>
+    <Name>IOT.Device.SmartTrack</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="CONFIG_FILES\Demo_Route_drop_1.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_10.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_10_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_11.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_11_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_12.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_12_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_13.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_13_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_14.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_14_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_15.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_15_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_1_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_2.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_2_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_3.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_3_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_4.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_4_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_5.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_5_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_6.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_6_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_7.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_7_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_8.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_8_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_9.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_drop_9_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_1.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_10.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_10_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_11.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_11_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_12.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_12_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_13.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_13_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_14.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_14_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_15.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_15_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_1_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_2.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_2_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_3.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_3_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_4.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_4_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_5.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_5_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_6.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_6_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_7.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_7_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_8.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_8_tst.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_9.INI" />
+    <Content Include="CONFIG_FILES\Demo_Route_pick_9_tst.INI" />
+    <Content Include="image\sync_09142017_154532.jpg" />
+    <Content Include="livefeed\JPEG_example_JPG_RIP_100.jpg" />
+    <Content Include="livefeed\sample-graphic.jpg" />
+    <Content Include="livefeed\sample_6.jpg" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DATABASE\SET.py" />
+    <Compile Include="DATABASE\SET_tst.py" />
+    <Compile Include="DATABASE\temp10_drop.py" />
+    <Compile Include="DATABASE\temp10_drop_tst.py" />
+    <Compile Include="DATABASE\temp10_pick.py" />
+    <Compile Include="DATABASE\temp10_pick_tst.py" />
+    <Compile Include="DATABASE\temp11_drop.py" />
+    <Compile Include="DATABASE\temp11_drop_tst.py" />
+    <Compile Include="DATABASE\temp11_pick.py" />
+    <Compile Include="DATABASE\temp11_pick_tst.py" />
+    <Compile Include="DATABASE\temp12_drop.py" />
+    <Compile Include="DATABASE\temp12_drop_tst.py" />
+    <Compile Include="DATABASE\temp12_pick.py" />
+    <Compile Include="DATABASE\temp12_pick_tst.py" />
+    <Compile Include="DATABASE\temp13_drop.py" />
+    <Compile Include="DATABASE\temp13_drop_tst.py" />
+    <Compile Include="DATABASE\temp13_pick.py" />
+    <Compile Include="DATABASE\temp13_pick_tst.py" />
+    <Compile Include="DATABASE\temp14_drop.py" />
+    <Compile Include="DATABASE\temp14_drop_tst.py" />
+    <Compile Include="DATABASE\temp14_pick.py" />
+    <Compile Include="DATABASE\temp14_pick_tst.py" />
+    <Compile Include="DATABASE\temp15_drop.py" />
+    <Compile Include="DATABASE\temp15_drop_tst.py" />
+    <Compile Include="DATABASE\temp15_pick.py" />
+    <Compile Include="DATABASE\temp15_pick_tst.py" />
+    <Compile Include="DATABASE\temp1_drop.py" />
+    <Compile Include="DATABASE\temp1_drop_tst.py" />
+    <Compile Include="DATABASE\temp1_pick.py" />
+    <Compile Include="DATABASE\temp1_pick_tst.py" />
+    <Compile Include="DATABASE\temp2_drop.py" />
+    <Compile Include="DATABASE\temp2_drop_tst.py" />
+    <Compile Include="DATABASE\temp2_pick.py" />
+    <Compile Include="DATABASE\temp2_pick_tst.py" />
+    <Compile Include="DATABASE\temp3_drop.py" />
+    <Compile Include="DATABASE\temp3_drop_tst.py" />
+    <Compile Include="DATABASE\temp3_pick.py" />
+    <Compile Include="DATABASE\temp3_pick_tst.py" />
+    <Compile Include="DATABASE\temp4_drop.py" />
+    <Compile Include="DATABASE\temp4_drop_tst.py" />
+    <Compile Include="DATABASE\temp4_pick.py" />
+    <Compile Include="DATABASE\temp4_pick_tst.py" />
+    <Compile Include="DATABASE\temp5_drop.py" />
+    <Compile Include="DATABASE\temp5_drop_tst.py" />
+    <Compile Include="DATABASE\temp5_pick.py" />
+    <Compile Include="DATABASE\temp5_pick_tst.py" />
+    <Compile Include="DATABASE\temp6_drop.py" />
+    <Compile Include="DATABASE\temp6_drop_tst.py" />
+    <Compile Include="DATABASE\temp6_pick.py" />
+    <Compile Include="DATABASE\temp6_pick_tst.py" />
+    <Compile Include="DATABASE\temp7_drop.py" />
+    <Compile Include="DATABASE\temp7_drop_tst.py" />
+    <Compile Include="DATABASE\temp7_pick.py" />
+    <Compile Include="DATABASE\temp7_pick_tst.py" />
+    <Compile Include="DATABASE\temp8_drop.py" />
+    <Compile Include="DATABASE\temp8_drop_tst.py" />
+    <Compile Include="DATABASE\temp8_pick.py" />
+    <Compile Include="DATABASE\temp8_pick_tst.py" />
+    <Compile Include="DATABASE\temp9_drop.py" />
+    <Compile Include="DATABASE\temp9_drop_tst.py" />
+    <Compile Include="DATABASE\temp9_pick.py" />
+    <Compile Include="DATABASE\temp9_pick_tst.py" />
+    <Compile Include="hardware.py" />
+    <Compile Include="helpers.py" />
+    <Compile Include="iothub_client_args.py" />
+    <Compile Include="managers.py" />
+    <Compile Include="models.py" />
+    <Compile Include="run.py" />
+    <Compile Include="Start_Route-drop-1.py" />
+    <Compile Include="Start_Route-drop-10.py" />
+    <Compile Include="Start_Route-drop-10_tst.py" />
+    <Compile Include="Start_Route-drop-11.py" />
+    <Compile Include="Start_Route-drop-11_tst.py" />
+    <Compile Include="Start_Route-drop-12.py" />
+    <Compile Include="Start_Route-drop-12_tst.py" />
+    <Compile Include="Start_Route-drop-13.py" />
+    <Compile Include="Start_Route-drop-13_tst.py" />
+    <Compile Include="Start_Route-drop-14.py" />
+    <Compile Include="Start_Route-drop-14_tst.py" />
+    <Compile Include="Start_Route-drop-15.py" />
+    <Compile Include="Start_Route-drop-15_tst.py" />
+    <Compile Include="Start_Route-drop-1_tst.py" />
+    <Compile Include="Start_Route-drop-2.py" />
+    <Compile Include="Start_Route-drop-2_tst.py" />
+    <Compile Include="Start_Route-drop-3.py" />
+    <Compile Include="Start_Route-drop-3_tst.py" />
+    <Compile Include="Start_Route-drop-4.py" />
+    <Compile Include="Start_Route-drop-4_tst.py" />
+    <Compile Include="Start_Route-drop-5.py" />
+    <Compile Include="Start_Route-drop-5_tst.py" />
+    <Compile Include="Start_Route-drop-6.py" />
+    <Compile Include="Start_Route-drop-6_tst.py" />
+    <Compile Include="Start_Route-drop-7.py" />
+    <Compile Include="Start_Route-drop-7_tst.py" />
+    <Compile Include="Start_Route-drop-8.py" />
+    <Compile Include="Start_Route-drop-8_tst.py" />
+    <Compile Include="Start_Route-drop-9.py" />
+    <Compile Include="Start_Route-drop-9_tst.py" />
+    <Compile Include="Start_Route-pick-1.py" />
+    <Compile Include="Start_Route-pick-10.py" />
+    <Compile Include="Start_Route-pick-10_tst.py" />
+    <Compile Include="Start_Route-pick-11.py" />
+    <Compile Include="Start_Route-pick-11_tst.py" />
+    <Compile Include="Start_Route-pick-12.py" />
+    <Compile Include="Start_Route-pick-12_tst.py" />
+    <Compile Include="Start_Route-pick-13.py" />
+    <Compile Include="Start_Route-pick-13_tst.py" />
+    <Compile Include="Start_Route-pick-14.py" />
+    <Compile Include="Start_Route-pick-14_tst.py" />
+    <Compile Include="Start_Route-pick-15.py" />
+    <Compile Include="Start_Route-pick-15_tst.py" />
+    <Compile Include="Start_Route-pick-1_tst.py" />
+    <Compile Include="Start_Route-pick-2.py" />
+    <Compile Include="Start_Route-pick-2_tst.py" />
+    <Compile Include="Start_Route-pick-3.py" />
+    <Compile Include="Start_Route-pick-3_tst.py" />
+    <Compile Include="Start_Route-pick-4.py" />
+    <Compile Include="Start_Route-pick-4_tst.py" />
+    <Compile Include="Start_Route-pick-5.py" />
+    <Compile Include="Start_Route-pick-5_tst.py" />
+    <Compile Include="Start_Route-pick-6.py" />
+    <Compile Include="Start_Route-pick-6_tst.py" />
+    <Compile Include="Start_Route-pick-7.py" />
+    <Compile Include="Start_Route-pick-7_tst.py" />
+    <Compile Include="Start_Route-pick-8.py" />
+    <Compile Include="Start_Route-pick-8_tst.py" />
+    <Compile Include="Start_Route-pick-9.py" />
+    <Compile Include="Start_Route-pick-9_tst.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CONFIG_FILES" />
+    <Folder Include="DATABASE" />
+    <Folder Include="image" />
+    <Folder Include="livefeed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env1\">
+      <Id>IOT.Device.SmartTrack</Id>
+      <Description>env1 (Python 3.6 (32-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.6</Version>
+      <Architecture>X86</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+    <Interpreter Include="env2\">
+      <Id>IOT.Device.SmartTrack</Id>
+      <Description>env2 (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.6</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+    <Interpreter Include="env\">
+      <Id>IOT.Device.SmartTrack</Id>
+      <Description>env (Python 3.6 (32-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.6</Version>
+      <Architecture>X86</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
